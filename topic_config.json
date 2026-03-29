@@ -1,0 +1,38 @@
+{
+  "-1003863431886": {
+    "topics": {},
+    "txt_topics": {},
+    "default_topic": null,
+    "auto_create": true,
+    "category_mapping": {
+      "video": "videos",
+      "pdf": "pdfs",
+      "notice": "notices",
+      "upload": "uploads"
+    }
+  },
+  "-1003504373473": {
+    "topics": {},
+    "txt_topics": {},
+    "default_topic": null,
+    "auto_create": true,
+    "category_mapping": {
+      "video": "videos",
+      "pdf": "pdfs",
+      "notice": "notices",
+      "upload": "uploads"
+    }
+  },
+  "7385595817": {
+    "topics": {},
+    "txt_topics": {},
+    "default_topic": null,
+    "auto_create": true,
+    "category_mapping": {
+      "video": "videos",
+      "pdf": "pdfs",
+      "notice": "notices",
+      "upload": "uploads"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "1bb8b21558122684b22095e69c0f4410": {
+    "file_hash": "1bb8b21558122684b22095e69c0f4410",
+    "file_name": "# Mission UDAY 2026 Class 11th Comm",
+    "user_id": 7385595817,
+    "total_links": 24,
+    "completed_links": [
+      "https://d1d34p8vz63oiq.cloudfront.net/9ab84d64-ff14-4d72-96b4-9c510b232a9a/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4151d030691d6f6cb9813",
+      "https://d1d34p8vz63oiq.cloudfront.net/ec574db7-5952-4fbe-872c-65bce99f5aba/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c41588b90b2cc2fe771d5f"
+    ],
+    "failed_links": [],
+    "skipped_links": [],
+    "current_index": 4,
+    "status": "paused",
+    "created_at": "2026-03-29T13:16:52.477299",
+    "updated_at": "2026-03-29T13:18:33.764594",
+    "links": [
+      "https://d1d34p8vz63oiq.cloudfront.net/38af3dd1-f4a8-44a3-9111-5b4c40c6c3c5/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c414847733438d84d9036d",
+      "https://d1d34p8vz63oiq.cloudfront.net/257fe045-d0a0-46ae-aa16-8a72221136b7/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c414ba6c7a968f882f21ed",
+      "https://d1d34p8vz63oiq.cloudfront.net/a3d0d2ad-f753-4e97-877f-63c7010a01ce/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c414e6372b08f4e6327ab9",
+      "https://d1d34p8vz63oiq.cloudfront.net/9ab84d64-ff14-4d72-96b4-9c510b232a9a/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4151d030691d6f6cb9813",
+      "https://d1d34p8vz63oiq.cloudfront.net/d8f17b42-5f04-45f0-9a87-7e4ee2d838dc/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4155668d10800783526a4",
+      "https://d1d34p8vz63oiq.cloudfront.net/ec574db7-5952-4fbe-872c-65bce99f5aba/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c41588b90b2cc2fe771d5f",
+      "https://d1d34p8vz63oiq.cloudfront.net/091cab51-db71-4b59-b1e6-174290d5a37a/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c415be68cebb6300c016f7",
+      "https://d1d34p8vz63oiq.cloudfront.net/c8bad03b-ab93-4a8c-8432-b3cef3612fa2/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4180652895f813d5eb30d",
+      "https://d1d34p8vz63oiq.cloudfront.net/141eaa51-b8a5-4192-befc-2559bbc93e4d/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4184339b4d286a7567e62",
+      "https://d1d34p8vz63oiq.cloudfront.net/f432c384-4098-4158-a733-fc2d5c85a4d0/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c418812bd14a2617336495",
+      "https://d1d34p8vz63oiq.cloudfront.net/1ab06b8d-a6e3-4bd3-b9ac-039a21293dee/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c4196819f60007c3e6e0c9",
+      "https://d1d34p8vz63oiq.cloudfront.net/a6046dee-606a-4a33-b4b1-5dd1f1331664/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c419e4ac53e19238e770cb",
+      "https://d1d34p8vz63oiq.cloudfront.net/111ef34c-f89c-4f6b-a2a6-4c71de73b3c9/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68c41a37a91d1ce6ec54fe7b",
+      "https://d1d34p8vz63oiq.cloudfront.net/c1c02dc9-aa55-4f84-88a2-09c533cb0b82/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e3add9d5d66ab955c3d9fe",
+      "https://d1d34p8vz63oiq.cloudfront.net/3bd2fdbf-408c-4fe8-a15e-7d6603764e75/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e12e603786851990dc11ab",
+      "https://d1d34p8vz63oiq.cloudfront.net/b91e425d-faaa-4ccb-96af-5ca31b39f28f/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e12e272a92a5e8146bcb38",
+      "https://d1d34p8vz63oiq.cloudfront.net/d1421c8d-9bb3-43eb-ae27-cf17e8bd9874/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e12dec9e8856b352e29671",
+      "https://d1d34p8vz63oiq.cloudfront.net/13492b29-a453-4c9e-9b70-c6771abc64d8/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e12db40fb96f736514fcfd",
+      "https://d1d34p8vz63oiq.cloudfront.net/19aac183-d6da-4a82-ad0e-befea1e035ad/master.mpd&parentId=68c2bf2dfa9a7c6385d16573&childId=68e12d55e7212f3e955a747d",
+      "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/68c8c35f-1d7f-43a5-bb32-01eba7b25f9d.pdf",
+      "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/f3f53132-d59f-4465-aed6-0ef1b58ce34e.pdf",
+      "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/d9bfd8ad-35dc-42e5-9268-a9bbc8c287eb.pdf",
+      "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/43e8ee47-0796-42ca-b175-74701b481623.pdf",
+      "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/985dbcbe-f000-49e4-8bcd-6c06ecfbf584.pdf"
+    ],
+    "metadata": {
+      "download_type": "youtube",
+      "channel_id": null,
+      "last_successful_index": 4,
+      "batch_name": "# Mission UDAY 2026 Class 11th Comm"
+    }
+  }
+}
