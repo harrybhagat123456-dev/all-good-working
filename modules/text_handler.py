@@ -80,10 +80,8 @@ async def json_to_txt(bot: Client, message: Message):
     for section_name, section_data in batch_data.items():
         if not isinstance(section_data, dict):
             continue
-        # Collect unique parent heading for the summary
-        if section_name not in _seen_parents:
-            parent_headings.append(section_name)
-            _seen_parents.add(section_name)
+        # Collect all links under this parent section first
+        section_links = []
         for subsection_name, subsection_data in section_data.items():
             if not isinstance(subsection_data, dict):
                 continue
@@ -91,24 +89,34 @@ async def json_to_txt(bot: Client, message: Message):
                 items = subsection_data.get(ctype, [])
                 if not items:
                     continue
-                heading = f"{section_name} {subsection_name} {ctype}"
-                lines_out.append(heading)
-                lines_out.append("")  # blank line after heading
                 for item in items:
                     name = item.get('name', 'Unnamed').strip()
                     url = item.get('url', '').strip()
                     if not url:
                         continue
-                    # Strip scheme so bot can re-add https:// when processing
                     if url.startswith('https://'):
                         url_part = url[8:]
                     elif url.startswith('http://'):
                         url_part = url[7:]
                     else:
                         url_part = url
-                    lines_out.append(f"{name}://{url_part}")
-                    total_links += 1
-                lines_out.append("")  # blank line after section
+                    section_links.append(f"{name}://{url_part}")
+
+        if not section_links:
+            continue
+
+        # Write parent heading once, then all links under it
+        lines_out.append(section_name)
+        lines_out.append("")  # blank line after heading
+        for link_line in section_links:
+            lines_out.append(link_line)
+            total_links += 1
+        lines_out.append("")  # blank line after section
+
+        # Track unique parent headings for summary
+        if section_name not in _seen_parents:
+            parent_headings.append(section_name)
+            _seen_parents.add(section_name)
 
     if total_links == 0:
         await editable.edit("❌ No links found in the JSON file.")
